@@ -13,11 +13,11 @@ h1{
 }
 
 .section-1{
+    
     display: flex;
     background: url('./image/top-banner.png');
     background-position: inherit;
     background-repeat: no-repeat;
-    background-size: cover;
     margin-bottom: 150px;
 }
 
@@ -87,6 +87,7 @@ h1{
 }
 
 .section-3{
+    height: 600px;
     background: url('./image/exp-bg.png');
     background-repeat: no-repeat;
     background-position: left center;
@@ -99,7 +100,7 @@ h1{
 
 .container{
     width: 90%;
-    margin: 0px auto;
+    margin: 100px auto 0px auto;
     display: flex;
     justify-content: center;
 }
@@ -107,10 +108,15 @@ h1{
 .box{
     width: 40%;
     margin: 0px 50px;
-    background: linear-gradient();
-    background: linear-gradient(tomato, orange);
+    padding: 30px 50px;
+    box-shadow: 0px 5px 20px rgb(99, 98, 98);
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg, lightsalmon, tomato);
+    border-image-slice: 1;
 }
 
-.box:nth-child(1){
-    align-self: flex-end;
+.second{
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg, blue, cyan);
+    border-image-slice: 1;
 }
